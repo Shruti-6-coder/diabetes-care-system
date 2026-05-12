@@ -6,6 +6,7 @@ import os
 file_path = "data.csv"
 
 st.title("Smart Diabetes Care System")
+st.set_page_config(page_title="Smart Diabetes Care System", layout="wide")
 
 st.sidebar.title("Navigation")
 
@@ -22,6 +23,7 @@ if not os.path.exists("data.csv"):
 # HOME
 if option == "Home":
     st.write("Welcome to your Diabetes Dashboard")
+    st.info("This system helps diabetic patients monitor, analyze, and manage their health efficiently using AI.")
 
 # ADD SUGAR LEVEL
 elif option == "Add Sugar Level":

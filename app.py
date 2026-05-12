@@ -62,7 +62,7 @@ elif option == "View Data":
     st.write(df)
 
     # Convert Time column to datetime
-    df["Time"] = pd.to_datetime(df["Time"])
+    df["Time"] = pd.to_datetime(df["Time"], errors="coerce")
 
     # Set Time as index
     df.set_index("Time", inplace=True)

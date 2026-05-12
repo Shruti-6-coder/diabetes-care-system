@@ -1,5 +1,5 @@
 ## Live App
-https://diabetes-care-system ∙ main ∙ app.py.cd C:\Users\shrus\OneDrive\Desktop\diabetes-care-system streamlit run app.py
+(https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
 
 # Smart Diabetes Care System
 
